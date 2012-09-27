@@ -1,0 +1,13 @@
+extends layout
+
+if userList.length > 0
+  div
+    table
+      thead
+        tr: th Users
+      tbody
+        each user, i in userList
+          tr 
+            #{user.name}
+else 
+  p No users.
