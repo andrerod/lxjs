@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.61
+3 info using node@v0.8.9
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Sources\presentation\presentation\package.json
+6 warn package.json application-name@0.0.1 No README.md file found!
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Sources\\presentation\\presentation',
+8 verbose install   [ 'express', 'jade', 'azure', 'uuid' ] ]
+9 verbose from cache C:\Sources\presentation\presentation\package.json
+10 info preinstall application-name@0.0.1
+11 verbose read json C:\Sources\presentation\presentation\node_modules\azure\package.json
+12 verbose read json C:\Sources\presentation\presentation\node_modules\express\package.json
+13 verbose read json C:\Sources\presentation\presentation\node_modules\jade\package.json
+14 verbose from cache C:\Sources\presentation\presentation\package.json
+15 verbose readDependencies using package.json deps
+16 verbose read json C:\Sources\presentation\presentation\node_modules\.bin\package.json
+17 verbose from cache C:\Sources\presentation\presentation\node_modules\azure\package.json
+18 verbose from cache C:\Sources\presentation\presentation\node_modules\express\package.json
+19 verbose from cache C:\Sources\presentation\presentation\node_modules\jade\package.json
+20 verbose already installed skipping express@3.0.0rc4 C:\Sources\presentation\presentation
+21 verbose already installed skipping jade@* C:\Sources\presentation\presentation
+22 verbose already installed skipping azure@* C:\Sources\presentation\presentation
+23 verbose cache add [ 'uuid@*', null ]
+24 silly cache add name=undefined spec="uuid@*" args=["uuid@*",null]
+25 verbose parsed url { pathname: 'uuid@*', path: 'uuid@*', href: 'uuid@*' }
+26 silly cache add name="uuid" spec="*" args=["uuid","*"]
+27 verbose parsed url { pathname: '*', path: '*', href: '*' }
+28 verbose addNamed [ 'uuid', '*' ]
+29 verbose addNamed [ null, '' ]
+30 silly lockFile ad98f148-uuid uuid@*
+31 verbose lock uuid@* C:\Users\andrerod\AppData\Roaming\npm-cache\ad98f148-uuid.lock
+32 silly addNameRange { name: 'uuid', range: '', hasData: false }
+33 verbose url raw uuid
+34 verbose url resolving [ 'https://registry.npmjs.org/', './uuid' ]
+35 verbose url resolved https://registry.npmjs.org/uuid
+36 info trying registry request attempt 1 at 13:19:52
+37 verbose etag "7BKJ6AHL70UG34VIDJQ59MFHS"
+38 http GET https://registry.npmjs.org/uuid
+39 http 304 https://registry.npmjs.org/uuid
+40 silly registry.get cb [ 304,
+40 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+40 silly registry.get     etag: '"7BKJ6AHL70UG34VIDJQ59MFHS"',
+40 silly registry.get     date: 'Thu, 27 Sep 2012 12:19:53 GMT',
+40 silly registry.get     'content-length': '0' } ]
+41 verbose etag uuid from cache
+42 silly addNameRange number 2 { name: 'uuid', range: '', hasData: true }
+43 silly addNameRange versions [ 'uuid', [ '0.0.1', '0.0.2' ] ]
+44 verbose addNamed [ 'uuid', '0.0.2' ]
+45 verbose addNamed [ '0.0.2', '0.0.2' ]
+46 silly lockFile 18d223ba-uuid-0-0-2 uuid@0.0.2
+47 verbose lock uuid@0.0.2 C:\Users\andrerod\AppData\Roaming\npm-cache\18d223ba-uuid-0-0-2.lock
+48 verbose read json C:\Users\andrerod\AppData\Roaming\npm-cache\uuid\0.0.2\package\package.json
+49 warn package.json uuid@0.0.2 No README.md file found!
+50 silly lockFile 18d223ba-uuid-0-0-2 uuid@0.0.2
+51 silly lockFile ad98f148-uuid uuid@*
+52 silly resolved [ { name: 'uuid',
+52 silly resolved     description: 'Simple libuuid bindings to allow UUIDs to be generated from JS.',
+52 silly resolved     version: '0.0.2',
+52 silly resolved     author: { name: 'Nikhil Marathe' },
+52 silly resolved     repository: { type: 'hg', url: 'http://bitbucket.org/nikhilm/uuidjs' },
+52 silly resolved     engine: [ 'node >=0.1.103' ],
+52 silly resolved     scripts: { preinstall: 'node-waf configure && node-waf build' },
+52 silly resolved     main: 'build/default/uuid.node',
+52 silly resolved     _id: 'uuid@0.0.2',
+52 silly resolved     readme: 'ERROR: No README.md file found!',
+52 silly resolved     _from: 'uuid@*' } ]
+53 info install uuid@0.0.2 into C:\Sources\presentation\presentation
+54 info installOne uuid@0.0.2
+55 verbose from cache C:\Users\andrerod\AppData\Roaming\npm-cache\uuid\0.0.2\package\package.json
+56 info C:\Sources\presentation\presentation\node_modules\uuid unbuild
+57 verbose read json C:\Sources\presentation\presentation\node_modules\uuid\package.json
+58 verbose tar unpack C:\Users\andrerod\AppData\Roaming\npm-cache\uuid\0.0.2\package.tgz
+59 silly lockFile 84c04e2e-n-presentation-node-modules-uuid C:\Sources\presentation\presentation\node_modules\uuid
+60 verbose lock C:\Sources\presentation\presentation\node_modules\uuid C:\Users\andrerod\AppData\Roaming\npm-cache\84c04e2e-n-presentation-node-modules-uuid.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+64 silly gunzTarPerm extractEntry LICENSE
+65 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+66 silly gunzTarPerm extractEntry test.js
+67 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry .hgignore
+69 silly gunzTarPerm modified mode [ '.hgignore', 438, 420 ]
+70 silly gunzTarPerm extractEntry .hg_archival.txt
+71 silly gunzTarPerm modified mode [ '.hg_archival.txt', 438, 420 ]
+72 silly gunzTarPerm extractEntry src/uuid.cc
+73 silly gunzTarPerm modified mode [ 'src/uuid.cc', 438, 420 ]
+74 silly gunzTarPerm extractEntry src/uuid.h
+75 silly gunzTarPerm modified mode [ 'src/uuid.h', 438, 420 ]
+76 silly gunzTarPerm extractEntry wscript
+77 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+78 verbose read json C:\Sources\presentation\presentation\node_modules\uuid\package.json
+79 silly lockFile 84c04e2e-n-presentation-node-modules-uuid C:\Sources\presentation\presentation\node_modules\uuid
+80 info preinstall uuid@0.0.2
+81 verbose unsafe-perm in lifecycle true
+82 silly exec cmd "/c" "node-waf configure && node-waf build"
+83 silly cmd,/c,node-waf configure && node-waf build,C:\Sources\presentation\presentation\node_modules\uuid spawning
+84 info uuid@0.0.2 Failed to exec preinstall script
+85 info C:\Sources\presentation\presentation\node_modules\uuid unbuild
+86 verbose from cache C:\Sources\presentation\presentation\node_modules\uuid\package.json
+87 info preuninstall uuid@0.0.2
+88 info uninstall uuid@0.0.2
+89 verbose true,C:\Sources\presentation\presentation\node_modules,C:\Sources\presentation\presentation\node_modules unbuild uuid@0.0.2
+90 info postuninstall uuid@0.0.2
+91 error uuid@0.0.2 preinstall: `node-waf configure && node-waf build`
+91 error `cmd "/c" "node-waf configure && node-waf build"` failed with 1
+92 error Failed at the uuid@0.0.2 preinstall script.
+92 error This is most likely a problem with the uuid package,
+92 error not with npm itself.
+92 error Tell the author that this fails on your system:
+92 error     node-waf configure && node-waf build
+92 error You can get their info via:
+92 error     npm owner ls uuid
+92 error There is likely additional logging output above.
+93 error System Windows_NT 6.2.9200
+94 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+95 error cwd C:\Sources\presentation\presentation
+96 error node -v v0.8.9
+97 error npm -v 1.1.61
+98 error code ELIFECYCLE
+99 verbose exit [ 1, true ]

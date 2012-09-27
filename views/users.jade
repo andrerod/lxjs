@@ -1,13 +1,16 @@
 extends layout
 
-if userList.length > 0
-  div
-    table
-      thead
-        tr: th Users
-      tbody
-        each user, i in userList
-          tr 
-            #{user.name}
-else 
-  p No users.
+block content
+
+  if users.length > 0
+    div
+      table
+        thead
+          tr
+            th Name
+        tbody
+          each user, i in users
+            tr 
+              td= user.name
+  else 
+    p No users.
