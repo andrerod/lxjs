@@ -4,7 +4,7 @@
  */
 
 var azure = require('azure');
-var tableService = azure.createTableService();
+var tableService = azure.createTableService('andrerod', 'CMYQCopjWkivqEuA66bKDhYu+TKpjfhaDiajZQnj1c3zVKPS1nYqoENSBejvAfmzMy1JVhDcpYgzHcCgGL/IJg==');
 
 exports.list = function(req, res) {
   var query = azure.TableQuery.select().from('users');
